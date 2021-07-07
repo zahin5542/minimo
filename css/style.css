@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap");
+* {
+  padding-bottom: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+  font-size: 22px;
+  color: #333;
+}
+img {
+  max-width: 100%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.col-01 {
+  width: 100%;
+  flex: 0 0 auto;
+  padding: 100px;
+}
+.col-02 {
+  width: 50%;
+  flex: 0 0 auto;
+  padding: 50px;
+}
+
+/*header*/
+
+.container {
+  width: calc(100% - 200px);
+  margin: auto;
+  padding: 21px 0;
+}
+
+.logo {
+  width: 15%;
+  flex: 0 0 auto;
+}
+
+nav {
+  width: 85%;
+  flex: 0 0 auto;
+}
+nav ul {
+  justify-content: flex-end;
+}
+
+nav ul li a {
+  color: #211f1f;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  display: block;
+  padding: 10px 44px;
+}
+nav ul li a:hover {
+  background: #333;
+  color: #a6a1a1;
+}
+
+/*banner section css*/
+.banner-section {
+  padding: 40px 0;
+}
+.banner-section .container img {
+  width: 100%;
+}
+
+/*blog-section*/
+.pad {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+article span {
+  text-transform: uppercase;
+  color: #aba9a9;
+  display: block;
+  margin-top: 15px;
+  font-size: 17px;
+}
+article h1 {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+article h1 a {
+  color: #333;
+  text-transform: initial;
+}
+
+article p {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+article a {
+  text-transform: uppercase;
+  color: #a09d9d;
+  text-decoration: none;
+}
+article img {
+  width: 100%;
+}
+
+/*footer*/
+
+footer .col-02 {
+  padding: 30px;
+}
+ul.footer-menu-flex {
+  display: flex;
+}
+
+ul.footer-menu-flex li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  display: block;
+  flex: 0 0 auto;
+  padding: 0 20px;
+}
+ul.footer-menu-flex li a:hover {
+  background: #333;
+  color: white;
+}
+
+ul.social-link {
+  justify-content: flex-end;
+}
+ul.social-link li {
+  padding: 0 20px;
+}
+ul.social-link span {
+  padding: 0 20px;
+}
+ul.social-link li a {
+  display: block;
+  padding: 0 20px;
+}
+ul.social-link li a:hover {
+  opacity: 0.3%;
+}
+.copyRight {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
